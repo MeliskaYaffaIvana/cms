@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    echo "Welcome";
 });
+Route::get('/about', function(){
+    echo "Meliska Yaffa Ivana - 1941720020";
+});
+Route::get('articles/{id}' , function($id){
+    echo "Article Pages with ID ${id}";
+});
+
