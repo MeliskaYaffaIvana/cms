@@ -3,6 +3,7 @@
     Free  Template by Mohamed Sobhy
     https://www.facebook.com/Mido.HHH
 -->
+
 <html lang="en">
 <head>
 	<title>King Of Pasta</title>
@@ -45,8 +46,8 @@ new WOW().init();
                 <li><a href="#navigations">HOME</a></li>
                 <li> <a href="#slider">ABOUT</a></li>
                 <li><a href="#map">LOCATONS</a></li>
-                <li><a href="#bestdishes">MENU</a></li>
-                <li><a href="#contactus">CONTACT</a></li>
+                <li><a href="menu">MENU</a></li>
+                <li><a href="contact">CONTACT</a></li>
             </ul>
         </nav>
       </div> <!--end of header-->
@@ -108,7 +109,7 @@ new WOW().init();
 		 <h2 class="wow fadeInUp" data-wow-delay="0.3s">BEST DISHES</h2>
       <div class="slider">
       		    <ul class="slides">
-          	 	 <li class="slide">
+              <li class="slide">
                     <div class="item">
                           <img src="images/thumb1.png" width="226" height="225" alt="sliderimg" class="wow flipInX"
                            data-wow-delay=".8s"> 
@@ -143,11 +144,11 @@ new WOW().init();
                           <h3>Pasta Fusilli</h3>
                       </div> <!-- end of item-->
                   </li>
-                   
         </ul>
       </div> <!-- end of slider-->
     </div> <!-- end of besth dishes-->
 </div> <!-- end of bestdishes wrapper-->
+
 
 <!--============ BOOK ONLINE ============-->
 
